@@ -1,0 +1,211 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #cdcdcd
+}
+
+.logo {
+    position: absolute;
+    width: 200px;
+    height: 180px;
+    left: 70px;
+    top: 30px;
+    border-radius: 45%;
+}
+
+.pesquisa {
+    position: absolute;
+    top: 130px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 40px;
+    padding: 10px;
+    background: rgb(255, 255, 255);
+    /*cor da balão*/
+}
+
+.pesquisa-botao {
+    color: rgb(255, 255, 255);
+    /*cor da lupa*/
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 80%;
+    background: rgb(0, 0, 0);
+    /*cor do fundo da lupa*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+
+.pesquisa-texto {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: rgba(8, 8, 8, 0.397);
+    /*cor do texto*/
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 500px;
+    /*tamanho da bara de texto*/
+}
+
+.Halo {
+    position: absolute;
+    width: 300px;
+    height: 450px;
+    left: 460px;
+    top: 280px
+}
+
+.PreçoHalo {
+    position: absolute;
+    left: 917px;
+    top: 606px;
+    font-family: 'Lemon Milk';
+    font-weight: 750;
+    font-size: 20px;
+    line-height: 80px;
+    color: #000000;
+    text-align: Center;
+}
+
+.NomeJogo {
+    position: absolute;
+    left: 804px;
+    top: 271px;
+    font-family: 'Lemon Milk';
+    font-weight: 750;
+    font-size: 15px;
+    line-height: 80px;
+    color: #000000;
+    text-align: Center;
+}
+
+.Vant {
+    position: absolute;
+    width: 1170px;
+    height: 44px;
+    left: 270px;
+    top: 830px;
+    object-fit: none;
+}
+
+.Conta {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 50px;
+    left: 1650px;
+}
+.Carrinho {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 50px;
+    left: 1550px;
+}
+
+.Comprar {
+    position: absolute;
+    width: 430px;
+    height: 54px;
+    left: 769px;
+    top: 675px;
+}
+
+.Descrição {
+    position: absolute;
+    width: 318px;
+    left: 840px;
+    height: 100px;
+    top: 400px;
+    font-family: 'Lemon Milk';
+    font-weight: 180px;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: Center;
+}
+
+.Cartão {
+    position: absolute;
+    width: 318px;
+    left: 732px;
+    height: 100px;
+    top: 360px;
+    font-family: 'Lemon Milk';
+    font-weight: 180px;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: Center;
+}
+
+.Pix {
+    position: absolute;
+    width: 318px;
+    left: 740px;
+    height: 100px;
+    top: 430px;
+    font-family: 'Lemon Milk';
+    font-weight: 180px;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: Center;
+}
+
+.Boleto {
+    position: absolute;
+    width: 318px;
+    left: 769px;
+    height: 100px;
+    top: 500px;
+    font-family: 'Lemon Milk';
+    font-weight: 180px;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: Center;
+}
+
+.CheckBox3 {
+    position: absolute;
+    width: 30px;
+    left: 1055px;
+    height: 30px;
+    top: 504px;
+}
+
+.CheckBox2 {
+    position: absolute;
+    width: 30px;
+    left: 1000px;
+    height: 30px;
+    top: 434px;
+}
+
+.CheckBox1 {
+    position: absolute;
+    width: 30px;
+    left: 983px;
+    height: 30px;
+    top: 365px;
+}
+
+.Img_Cartão {
+    position: absolute;
+    width: 125px;
+    left: 800px;
+    height: 50px;
+    top: 375px;
+}
+
+.Pix_png {
+    position: absolute;
+    width: 64px;
+    left: 800px;
+    height: 64px;
+    top: 440px;
+}

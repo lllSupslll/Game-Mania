@@ -1,0 +1,205 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #cdcdcd
+}
+
+.logo {
+    position: absolute;
+    width: 200px;
+    height: 180px;
+    left: 70px;
+    top: 30px;
+    border-radius: 45%;
+}
+
+.pesquisa {
+    position: absolute;
+    top: 130px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 40px;
+    padding: 10px;
+    background: rgb(255, 255, 255);
+    /*cor da balão*/
+}
+
+.pesquisa-botao {
+    color: rgb(255, 255, 255);
+    /*cor da lupa*/
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 80%;
+    background: rgb(0, 0, 0);
+    /*cor do fundo da lupa*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+
+.pesquisa-texto {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: rgba(8, 8, 8, 0.397);
+    /*cor do texto*/
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 500px;
+    /*tamanho da bara de texto*/
+}
+
+.Destaque {
+    position: absolute;
+    width: 318px;
+    height: 68px;
+    left: 730px;
+    top: 188px;
+    font-family: 'Lemon Milk';
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 68px;
+    color: #FFFFFF;
+    text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.500);
+}
+
+.Halo {
+    position: absolute;
+    width: 262px;
+    height: 333px;
+    left: 500px;
+    top: 350px
+}
+
+.PreçoHalo {
+    position: absolute;
+    width: 212px;
+    height: 81px;
+    left: 527px;
+    top: 700px;
+}
+
+.Ark {
+    position: absolute;
+    width: 262px;
+    height: 333px;
+    left: 1000px;
+    top: 348px
+}
+
+.PreçoArk {
+    position: absolute;
+    width: 161px;
+    height: 75px;
+    left: 1055px;
+    top: 700px;
+}
+
+.Vant {
+    position: absolute;
+    width: 1170px;
+    height: 44px;
+    left: 270px;
+    top: 830px;
+    object-fit: none;
+}
+
+.Conta {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 50px;
+    left: 1650px;
+}
+.Carrinho {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 50px;
+    left: 1550px;
+}
+.Hardware {
+    position: absolute;
+    width: 318px;
+    left: 20px;
+    height: 68px;
+    top: 450px;
+    font-family: 'Lemon Milk';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 68px;
+    color: #439E59;
+}
+
+.Jogos {
+    position: absolute;
+    width: 318px;
+    left: 20px;
+    height: 68px;
+    top: 350px;
+    font-family: 'Lemon Milk';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 68px;
+    color: #439E59;
+}
+
+.Perifericos {
+    position: absolute;
+    width: 318px;
+    left: 20px;
+    height: 68px;
+    top: 400px;
+    font-family: 'Lemon Milk';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 68px;
+    color: #439E59;
+}
+
+.LojasFisicas {
+    position: absolute;
+    width: 318px;
+    left: 20px;
+    height: 68px;
+    top: 500px;
+    font-family: 'Lemon Milk';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 68px;
+    color: #439E59;
+}
+
+.Slides {
+    position: absolute;
+        left: 1500px;
+        top: 200px;
+    }
+    
+    .Slide1 {
+        position: absolute;
+        width: 200px;
+        height: 180px;
+        border-radius: 45%;
+    }
+    
+    .Slide2 {
+        position: absolute;
+        width: 200px;
+        height: 180px;
+        border-radius: 45%;
+        top: 210px
+    }
+    
+    .Slide3 {
+        position: absolute;
+        width: 200px;
+        height: 180px;
+        border-radius: 45%;
+        top: 400px
+    }

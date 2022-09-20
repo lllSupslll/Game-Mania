@@ -1,0 +1,424 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #cdcdcd
+}
+
+.logo {
+    position: absolute;
+    width: 200px;
+    height: 180px;
+    left: 70px;
+    top: 1px;
+    border-radius: 45%;
+}
+
+.pesquisa {
+    position: absolute;
+    top: 95px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 40px;
+    padding: 10px;
+    background: rgb(255, 255, 255);
+    /*cor da balão*/
+}
+
+.pesquisa-botao {
+    color: rgb(255, 255, 255);
+    /*cor da lupa*/
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 80%;
+    background: rgb(0, 0, 0);
+    /*cor do fundo da lupa*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+
+.pesquisa-texto {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: rgba(8, 8, 8, 0.397);
+    /*cor do texto*/
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 500px;
+    /*tamanho da bara de texto*/
+}
+
+.Destaque {
+    position: absolute;
+    width: 318px;
+    height: 68px;
+    left: 730px;
+    top: 140px;
+    font-family: 'Lemon Milk';
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 68px;
+    color: #FFFFFF;
+    text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.500);
+}
+
+.Halo {
+    position: absolute;
+    width: 262px;
+    height: 333px;
+    left: 500px;
+    top: 330px
+}
+
+.PreçoHalo {
+    position: absolute;
+    width: 212px;
+    height: 81px;
+    left: 527px;
+    top: 680px;
+}
+
+.Ark {
+    position: absolute;
+    width: 262px;
+    height: 333px;
+    left: 1000px;
+    top: 330px
+}
+
+.PreçoArk {
+    position: absolute;
+    width: 161px;
+    height: 75px;
+    left: 1055px;
+    top: 680px;
+}
+
+.Vant {
+    position: absolute;
+    width: 1170px;
+    height: 44px;
+    left: 270px;
+    top: 830px;
+    object-fit: none;
+}
+
+.Conta {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 50px;
+    left: 1650px;
+}
+
+.Carrinho {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 50px;
+    left: 1550px;
+}
+
+.Hardware {
+    position: absolute;
+    width: 318px;
+    left: 40px;
+    height: 68px;
+    top: 450px;
+    font-family: 'Lemon Milk';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 68px;
+    color: #439E59;
+}
+
+.Jogos {
+    position: absolute;
+    width: 318px;
+    left: 40px;
+    height: 68px;
+    top: 350px;
+    font-family: 'Lemon Milk';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 68px;
+    color: #2da74c;
+    user-select: none;
+}
+
+.Perifericos {
+    position: absolute;
+    width: 318px;
+    left: 40px;
+    height: 68px;
+    top: 400px;
+    font-family: 'Lemon Milk';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 68px;
+    color: #439E59;
+}
+
+.LojasFisicas {
+    position: absolute;
+    width: 318px;
+    left: 40px;
+    height: 68px;
+    top: 500px;
+    font-family: 'Lemon Milk';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 68px;
+    color: #439E59;
+}
+
+.Slides {
+position: absolute;
+    left: 1500px;
+    top: 200px;
+}
+
+.Slide1 {
+    position: absolute;
+    width: 200px;
+    height: 180px;
+    border-radius: 45%;
+}
+
+.Slide2 {
+    position: absolute;
+    width: 200px;
+    height: 180px;
+    border-radius: 45%;
+    top: 210px
+}
+
+.Slide3 {
+    position: absolute;
+    width: 200px;
+    height: 180px;
+    border-radius: 45%;
+    top: 400px
+}
+
+@media screen and (width:1920px), (width:844px),
+(height:1080px), (height:390px) {
+    .Vant1920 {
+        position: absolute;
+        width: 1170px;
+        height: 44px;
+        left: 400px;
+        top: 1031px;
+        object-fit: none;
+    }
+
+    .Ark1920 {
+        position: absolute;
+        width: 375px;
+        height: 500px;
+        left: 1127px;
+        top: 312px;
+    }
+
+    .PreçoArk1920 {
+        position: absolute;
+        width: 236px;
+        height: 100px;
+        left: 1185px;
+        top: 833px;
+    }
+
+    .Halo1920 {
+        position: absolute;
+        width: 375px;
+        height: 500px;
+        left: 500px;
+        top: 312px;
+    }
+
+    .PreçoHalo1920 {
+        position: absolute;
+        width: 230px;
+        height: 90px;
+        left: 569px;
+        top: 839px;
+    }
+
+    .Destaque1920 {
+        position: absolute;
+        width: 318px;
+        height: 68px;
+        left: 848px;
+        top: 158px;
+        font-family: 'Lemon Milk';
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 68px;
+        color: #FFFFFF;
+        text-shadow: 0px 5px 5px rgb(0 0 0 / 50%);
+    }
+
+    .pesquisa1920 {
+        position: absolute;
+        top: 95px;
+        left: 1024px;
+        transform: translate(-50%, -50%);
+        border-radius: 40px;
+        padding: 10px;
+        background: rgb(255, 255, 255);
+    }
+
+    .Conta1920 {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        top: 50px;
+        left: 1750px;
+    }
+
+    .Carrinho1920 {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        top: 50px;
+        left: 1586px;
+    }
+
+    .Perifericos1920 {
+        position: absolute;
+        width: 318px;
+        left: 20px;
+        height: 68px;
+        top: 420px;
+        font-family: 'Lemon Milk';
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 68px;
+        color: #439E59;
+    }
+
+    .LojasFisicas1920 {
+        position: absolute;
+        width: 318px;
+        left: 20px;
+        height: 68px;
+        top: 532px;
+        font-family: 'Lemon Milk';
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 68px;
+        color: #439E59;
+    }
+
+    .Jogos1920 {
+        position: absolute;
+        width: 364px;
+        left: 25px;
+        height: 68px;
+        top: 350px;
+        font-family: 'Lemon Milk';
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 68px;
+        color: #439E59;
+        user-select: none;
+    }
+
+    user agent stylesheet h1 {
+        font-size: 2em;
+        font-weight: bold;
+    }
+
+    .Hardware1920 {
+        position: absolute;
+        width: 318px;
+        left: 20px;
+        height: 68px;
+        top: 475px;
+        font-family: 'Lemon Milk';
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 68px;
+        color: #439E59;
+    }
+
+    .Perifericos1920 {
+        position: absolute;
+        width: 318px;
+        left: 20px;
+        height: 68px;
+        top: 420px;
+        font-family: 'Lemon Milk';
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 68px;
+        color: #439E59;
+    }
+
+    .Vantmobile {
+        position: absolute;
+        width: 1170px;
+        height: 44px;
+        left: 196px;
+        top: 3331px;
+        object-fit: none;
+    }
+
+    .Arkmobile {
+        position: absolute;
+        width: 880px;
+        height: 1000px;
+        left: 396px;
+        top: 396px;
+    }
+
+    .Halomobile {
+        position: absolute;
+        width: 880px;
+        height: 1074px;
+        left: 388px;
+        top: 1690px;
+    }
+
+    .PreçoArkmobile {
+        position: absolute;
+        width: 431px;
+        height: 190px;
+        left: 644px;
+        top: 1438px;
+    }
+
+    .PreçoHalomobile {
+        position: absolute;
+        width: 550px;
+        height: 239px;
+        left: 579px;
+        top: 2841px;
+    }
+
+    .pesquisamobile {
+        position: absolute;
+        top: 250px;
+        left: 84%;
+        transform: translate(-50%, -50%);
+        border-radius: 40px;
+        padding: 10px;
+        background: rgb(255, 255, 255);
+    }
+
+    .Carrinhomobile {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        top: 97px;
+        left: 1217px;
+    }
+
+
+}

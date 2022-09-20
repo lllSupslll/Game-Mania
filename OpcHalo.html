@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Game Mania</title>
+    <link rel="stylesheet" type="text/css" href="OpcHalo.css">
+    <script src="https://kit.fontawesome.com/eb5b010c14.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <h1 class="Cartão">
+    Cartão (Em Até 6X)
+    </h1>
+    <h1 class="Pix">
+    Pix (5% De Desconto)
+    </h1>
+    <h1 class="Boleto">
+    Boleto (Taxa Não Inclusa)
+    </h1>
+    <Div Class="Adicionais">
+    <img class="CheckBox1" src="img/unchecked-checkbox.png" alt="Check1">
+    <img class="CheckBox2" src="img/unchecked-checkbox.png" alt="Check2">
+    <img class="CheckBox3" src="img/unchecked-checkbox.png" alt="Check3">
+    <img class="Img_Cartão" src="img/Bandeiras.png" alt="Bandeiras">
+    <img class="Pix_png" src="Img/Pix.png" alt="Pix_png">
+    </Div>
+    <div class="logo">
+        <a href="Index.html"><img class="logo" src="img/logofelipe.png" alt="Logo"></a>
+    </div>
+    <div class="Capas">
+        <img class="Halo" src="img/Halo_TMCC_KeyArt_Vert_2019_Final.jpg" alt="Halo">
+    </div>
+    <div class="NOMECOMPRA">
+      <h1 class="NomeJogo" id="p1nome">Halo: The Master Chief Collection</p>
+      </h1>
+      <div class="PreçoHalo"id="p1preco">R$ 129,00</div>
+      <p id="p1quantidade"></p>
+  </div>
+  <a class="BOTAOCOMPRA">
+    <br> <a href="carrinho.html"> <img class="Comprar" src="img/Screenshot_80.png" height="27" width="215" border-radius="20" value="Adicionar"
+          onclick="
+      addCarrinho(
+          document.getElementById('p1nome').textContent,
+          document.getElementById('p1preco').textContent,
+          document.getElementById('p1quantidade').value, 
+          1)"></a>
+  </div>
+    <div class="Vantagens">
+        <img class="Vant" src="img/Screenshot_2.png" alt="Vant">
+        <a href="Cadastro.html"><img class="Conta" src="Img/icone adição copiar.png" alt="Conta"></a>
+        <a href="Carrinho.html"><img class="Carrinho" src="Img/carrinho-de-compras.png" alt="Carrinho"></a>
+    </div>
+    <div class="pesquisa">
+        <input class="pesquisa-texto" type="text" name="" placeholder="O que você esta procurando hoje? ">
+        <a class="pesquisa-botao" href="#">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </a>
+    </div>
+</body>
+<script src="compra.js"></script>
+</html>

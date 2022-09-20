@@ -1,0 +1,199 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #cdcdcd
+}
+
+.logo {
+    position: absolute;
+    width: 200px;
+    height: 180px;
+    left: 70px;
+    top: 30px;
+    border-radius: 45%;
+}
+
+.pesquisa {
+    position: absolute;
+    top: 130px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 40px;
+    padding: 10px;
+    background: rgb(255, 255, 255);
+    /*cor da balão*/
+}
+
+.pesquisa-botao {
+    color: rgb(255, 255, 255);
+    /*cor da lupa*/
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 80%;
+    background: rgb(0, 0, 0);
+    /*cor do fundo da lupa*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+
+.pesquisa-texto {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: rgba(8, 8, 8, 0.397);
+    /*cor do texto*/
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 500px;
+    /*tamanho da bara de texto*/
+}
+
+.Jogo {
+    position: absolute;
+    width: 150px;
+    height: 225px;
+    left: 644px;
+    top: 450px;
+}
+
+.NomeJogo {
+    position: absolute;
+    left: 617px;
+    top: 647px;
+    font-family: 'Lemon Milk';
+    font-weight: 750;
+    font-size: 15px;
+    line-height: 80px;
+    color: #000000;
+    text-align: Center;
+}
+.TituloJogo {
+    position: absolute;
+    left: 684px;
+    top: 380px;
+    font-family: 'Lemon Milk';
+    font-weight: 750;
+    font-size: 20px;
+    line-height: 80px;
+    color: #000000;
+    text-align: Center;
+}
+
+.ValorJogo {
+    position: absolute;
+    left: 869px;
+    top: 512px;
+    font-family: 'Lemon Milk';
+    font-weight: 750;
+    font-size: 20px;
+    line-height: 80px;
+    color: #000000;
+    text-align: Center;
+}
+
+.Valor {
+    position: absolute;
+    left: 877px;
+    top: 466px;
+    font-family: 'Lemon Milk';
+    font-weight: 750;
+    font-size: 20px;
+    line-height: 80px;
+    color: #000000;
+    text-align: Center;
+}
+
+.finalizar {
+    position: absolute;
+    left: 853px;
+    top: 589px;
+    Width: 130px;
+    height: 32px;
+}
+#carrinho {
+    position: absolute;
+    left: 717px;
+    top: 314px;
+    font-family: 'Lemon Milk';
+    font-weight: 750;
+    font-size: 20px;
+    line-height: 50px;
+    color: #000000;
+    text-align: Center;
+}
+.compras {
+    position: absolute;
+    left: 800px;
+    top: 205px;
+    font-family: "Lemon Milk";
+    font-weight: 750;
+    font-size: 20px;
+    line-height: 80px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.Vant {
+    position: absolute;
+    width: 1170px;
+    height: 44px;
+    left: 397px;
+    top: 896px;
+    object-fit: none;
+}
+.Conta {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 50px;
+    left: 1650px;
+}
+
+.Carrinho {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 50px;
+    left: 1550px;
+}
+.Carrinho1 {
+    position: absolute;
+    height: 522,5px;
+    width: 96,5px;
+    top: 240px;
+    left: 125px;
+}
+
+.Meu_Carrinho {
+    position: absolute;
+    width: 318px;
+    height: 68px;
+    left: 674px;
+    top: 188px;
+    font-family: 'Lemon Milk';
+    font-weight: 750;
+    font-size: 60px;
+    line-height: 80px;
+    color: #000000;
+    text-align: Center;
+}
+
+.Botao1 {
+    position: absolute;
+    width: 50px;
+    height: 5px;
+    top: 50px;
+    left: 1px;
+}
+
+button {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 196px;
+}

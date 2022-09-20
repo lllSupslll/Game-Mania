@@ -1,0 +1,323 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 50vh;
+}
+
+.pesquisa {
+    position: absolute;
+    top: 85px;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    border-radius: 40px;
+    padding: 10px;
+    background: rgb(255, 255, 255);
+    /*cor da balão*/
+
+}
+
+.pesquisa:hover>.pesquisa-texto {
+    width: 245px;
+    /* tamanho do texto, porem quando minimizado*/
+    padding: 0 6px;
+}
+
+.pesquisa:hover>.pesquisa-texto {
+    background: rgb(255, 255, 255);
+    /*caixa d texto*/
+
+}
+
+.pesquisa-botao {
+    color: rgb(255, 255, 255);
+    /*cor da lupa*/
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 80%;
+    background: rgb(0, 0, 0);
+    /*cor do fundo da lupa*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+
+.pesquisa-texto {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: rgb(0, 0, 0);
+    /* cor do texto*/
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+    /* tamanho da barra de texto*/
+}
+
+.logo {
+    position: absolute;
+    width: 185px;
+    height: 170px;
+    left: 70px;
+    top: -10px;
+}
+
+.fundo {
+    background-image: url(IMG/gta.jpg);
+    position: absolute;
+    height: 150%;
+    width: 100%;
+}
+
+.Barra-amarela {
+    position: absolute;
+    width: 100%;
+    height: 134px;
+    background: gold;
+}
+
+.fundob {
+    position: absolute;
+    top: 134px;
+    left: 400px;
+    width: 750px;
+    height: 1130px;
+    background: rgb(255, 255, 255);
+    /*onde os jogos vão*/
+}
+
+.rodape {
+    position: absolute;
+    width: 100%;
+    height: 134px;
+    background: rgb(255, 255, 255);
+    top: 1130px;
+}
+
+.footer {
+    position: absolute;
+    top: 1170px;
+    width: 100%;
+    height: 50px;
+}
+
+.barraconta {
+    position: absolute;
+    top: 50px;
+    left: 950px;
+    border-radius: 1000px;
+}
+
+.barra11 {
+    position: absolute;
+    width: 120px;
+    height: 50px;
+    left: 1121px;
+    top: 55px;
+}
+
+.barra2 {
+    position: absolute;
+    width: 183px;
+    height: 50px;
+    left: 1237px;
+    top: 55px;
+}
+
+.barraregis {
+    position: absolute;
+    width: 350px;
+    height: 410px;
+    left: 380px;
+    top: 200px;
+    border-radius: 10px;
+    background: rgb(255 255 255 / 27%);
+    opacity: 0.8;
+    box-shadow: 0px 0px 17px
+}
+
+.barralogin {
+    position: absolute;
+    width: 350px;
+    height: 478px;
+    left: 760px;
+    top: 200px;
+    border-radius: 10px;
+    background: rgb(255 255 255 / 27%);
+    opacity: 0.8;
+    box-shadow: 0px 0px 17px
+}
+
+.loginn {
+    position: absolute;
+    width: 294px;
+    height: 40px;
+    left: 404px;
+    top: 380px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.632);
+    opacity: 0.5;
+    box-shadow: 0px 10px 10px;
+}
+
+.senhaa {
+    position: absolute;
+    width: 294px;
+    height: 40px;
+    left: 403px;
+    top: 463px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.632);
+    opacity: 0.5;
+    box-shadow: 0px 10px 10px;
+}
+
+.CPF {
+    position: absolute;
+    width: 294px;
+    height: 40px;
+    left: 788px;
+    top: 543px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.632);
+    opacity: 0.5;
+    box-shadow: 0px 10px 10px;
+}
+
+.criaremail {
+    position: absolute;
+    width: 294px;
+    height: 40px;
+    left: 788px;
+    top: 380px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.632);
+    opacity: 0.5;
+    box-shadow: 0px 10px 10px;
+}
+
+.criarsenha {
+    position: absolute;
+    width: 294px;
+    height: 40px;
+    left: 788px;
+    top: 463px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.632);
+    opacity: 0.5;
+    box-shadow: 0px 10px 10px;
+}
+
+.cadeado {
+    position: absolute;
+    width: 142px;
+    height: 100px;
+    left: 489px;
+    top: 187px;
+}
+
+.pessoa {
+    position: absolute;
+    width: 182px;
+    height: 114px;
+    left: 849px;
+    top: 172px;
+}
+
+.Ja {
+    position: absolute;
+    left: -825px;
+    top: 220px;
+    font-family: 'lemon milk';
+}
+
+.pessoa1 {
+    position: absolute;
+    left: -454px;
+    top: 222px;
+    font-family: 'lemon milk';
+}
+
+.inf {
+    position: absolute;
+    left: -390px;
+    top: 257px;
+    font-family: 'lemon milk';
+}
+
+.infemail {
+    position: absolute;
+    left: -447px;
+    top: 285px;
+    font-family: 'lemon milk';
+}
+
+.cpff {
+    position: absolute;
+    left: -447px;
+    top: 448px;
+    font-family: 'lemon milk';
+}
+
+.senhaaa {
+    position: absolute;
+    left: -447px;
+    top: 370px;
+    font-family: 'lemon milk';
+}
+
+.emaail {
+    position: absolute;
+    left: -830px;
+    top: 285px;
+    font-family: 'lemon milk';
+}
+
+.senhaj {
+    position: absolute;
+    left: -830px;
+    top: 370px;
+    font-family: 'lemon milk';
+}
+
+.logarse {
+    position: absolute;
+    width: 183px;
+    height: 50px;
+    left: 466px;
+    top: 542px;
+    border-radius: 25px;
+    background-color: rgba(255, 234, 0, 0.74);
+}
+
+.Logar {
+    position: absolute;
+    width: 183px;
+    height: 50px;
+    left: 526px;
+    top: 534px;
+    font-family: 'lemon milk';
+}
+
+.registrase {
+    position: absolute;
+    width: 202px;
+    height: 50px;
+    left: 827px;
+    top: 613px;
+    border-radius: 25px;
+    background-color: rgba(255, 234, 0, 0.74);
+}
+
+.registro1 {
+    position: absolute;
+    width: 183px;
+    height: 50px;
+    left: 864px;
+    top: 605px;
+    font-family: 'lemon milk';
+}
